@@ -3,8 +3,8 @@
 > A client-side starter project with Vue, Webpack, Babel and Unrest
 
 Checkout the other starter projects for
-[Lambda](/xori/starter-project/tree/lambda)
-and [Node](/xori/starter-project/tree/hosted)
+[Lambda](https://github.com/xori/starter-project/tree/lambda)
+and [Node](https://github.com/xori/starter-project/tree/hosted)
 
 ## Build Setup
 
