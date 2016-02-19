@@ -4,8 +4,8 @@
 Unrest
 
 Checkout the other starter projects for
-[Lambda](/xori/starter-project/tree/lambda)
-and [Client Side](/xori/starter-project/tree/master)
+[Lambda](https://github.com/xori/starter-project/tree/lambda)
+and [Client Side](https://github.com/xori/starter-project/tree/master)
 
 ## Build Setup
 
