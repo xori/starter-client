@@ -1,6 +1,6 @@
 {
-  "name": "starter-client",
-  "description": "A client-side starter project with Vue, Webpack, Babel and Unrest",
+  "name": "starter-hosted",
+  "description": "A starter project for hosted solutions with Express, Vue, Webpack, Babel and Unrest",
   "author": "Evan Verworn <evan@verworn.net>",
   "private": true,
   "scripts": {

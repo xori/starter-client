@@ -1,10 +1,11 @@
-# starter-client
+# starter-hosted
 
-> A client-side starter project with Vue, Webpack, Babel and Unrest
+> A starter project for hosted solutions with Express, Vue, Webpack, Babel and
+Unrest
 
 Checkout the other starter projects for
 [Lambda](/xori/starter-project/tree/lambda)
-and [Node](/xori/starter-project/tree/hosted)
+and [Client Side](/xori/starter-project/tree/master)
 
 ## Build Setup
 
