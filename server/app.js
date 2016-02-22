@@ -22,6 +22,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// database
+app.set('db', require('nosql').load(
+  path.join(__dirname, '..', 'data',
+    (app.get('env') === 'development')
+    ? "development.nosql" : "production.nosql"
+)))
+
 app.use('/', routes);
 app.use('/users', users);
 

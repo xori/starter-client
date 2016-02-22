@@ -8,9 +8,10 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "start": "node ./server/bin/www"
   },
+  "engine": {
+    "node": ">4.0.0"
+  },
   "dependencies": {
-    "unrest": "^2.1.1",
-    "vue": "^1.0.0",
     "body-parser": "~1.13.2",
     "cookie-parser": "~1.3.5",
     "debug": "~2.2.0",
@@ -18,7 +19,10 @@
     "hbs": "~3.1.0",
     "less-middleware": "1.0.x",
     "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "nosql": "^3.1.0",
+    "serve-favicon": "~2.3.0",
+    "unrest": "^2.1.1",
+    "vue": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
