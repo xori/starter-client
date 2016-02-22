@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "watch": "supervisor -e js,hbs,html -i ./server/client,./server/public ./server/bin/www",
     "start": "node ./server/bin/www"
   },
   "engine": {
